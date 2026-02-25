@@ -49,7 +49,7 @@ const items = ref([
     to: '/exercice3',
   },
   {
-    title: 'Exercice 4 test',
+    title: 'Exercice 4',
     subtitle: 'Propriétés calculées et refs',
     prependIcon: 'mdi-clock-outline', // Icône pour un calcul lié au temps
     to: '/exercice4',
@@ -79,7 +79,7 @@ const items = ref([
     to: '/exercice8',
   },
   {
-    title: 'Exercice 9',
+    title: 'Exercice 9 dernier',
     subtitle: 'Slots et contenu nommé',
     prependIcon: 'mdi-card-text-outline', // Icône pour un slot
     to: '/exercice9',
