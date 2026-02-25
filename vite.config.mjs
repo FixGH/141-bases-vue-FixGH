@@ -11,7 +11,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: './', // Chemin de base de l'application
+  base: process.env.VITE_BASE_URL || '/',  // Valeur dynamique
   plugins: [
     VueRouter(),
     Vue({
