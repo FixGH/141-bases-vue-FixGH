@@ -15,6 +15,8 @@
           outlined
           class="mb-4"
         />
+
+
         <!-- Ajoutez ici une liaison dynamique avec la variable description -->
         <v-textarea
           label="Modifier la description"
@@ -27,11 +29,15 @@
       <!-- Carte dynamique -->
       <v-card class="mx-auto my-6 pa-2" max-width="400">
         <!-- Titre dynamique -->
-        <v-card-title>*** TITRE ***</v-card-title>
+        <v-card-title>
+          {{ title }}
+        </v-card-title>
 
         <!-- Description dynamique -->
         <v-card-subtitle>
-          *** DESCRIPTION ***
+          <v-text-area>
+          {{ description }}
+          </v-text-area>
         </v-card-subtitle>
       </v-card>
     </div>
